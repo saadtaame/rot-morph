@@ -15,8 +15,8 @@ var RDest = [3 * s + 30, 2 * s + 30];
 var LLDest = [0 * s + 30, 1 * s + 30];
 var LRDest = [1 * s + 30, 2 * s + 30];
 
-var start = null;
-var animTime = 1000;
+var start = null; /* Timestamp to hold animation start time */
+var animTime = 1000; /* Controls animation speed */
 
 /* LERP: convex combination */
 function interpolate(x, y, t) {
